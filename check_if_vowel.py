@@ -1,4 +1,4 @@
-letter = input("enter a letter ")
+letter = (input("enter a letter ")).lower()
 
 if letter == "a" or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
     print("it's a vowel!!")
